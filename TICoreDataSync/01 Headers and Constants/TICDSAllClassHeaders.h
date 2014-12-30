@@ -49,23 +49,6 @@
 #import "TICDSFileManagerBasedDocumentClientDeletionOperation.h"
 #import "TICDSFileManagerBasedRemoveAllRemoteSyncDataOperation.h"
 
-#pragma mark DropboxSDK-Based
-#import "TICDSDropboxSDKBasedApplicationSyncManager.h"
-#import "TICDSDropboxSDKBasedDocumentSyncManager.h"
-#import "TICDSDropboxSDKBasedApplicationRegistrationOperation.h"
-#import "TICDSDropboxSDKBasedDocumentRegistrationOperation.h"
-#import "TICDSDropboxSDKBasedListOfPreviouslySynchronizedDocumentsOperation.h"
-#import "TICDSDropboxSDKBasedWholeStoreUploadOperation.h"
-#import "TICDSDropboxSDKBasedWholeStoreDownloadOperation.h"
-#import "TICDSDropboxSDKBasedPreSynchronizationOperation.h"
-#import "TICDSDropboxSDKBasedPostSynchronizationOperation.h"
-#import "TICDSDropboxSDKBasedVacuumOperation.h"
-#import "TICDSDropboxSDKBasedListOfDocumentRegisteredClientsOperation.h"
-#import "TICDSDropboxSDKBasedListOfApplicationRegisteredClientsOperation.h"
-#import "TICDSDropboxSDKBasedDocumentDeletionOperation.h"
-#import "TICDSDropboxSDKBasedDocumentClientDeletionOperation.h"
-#import "TICDSDropboxSDKBasedRemoveAllRemoteSyncDataOperation.h"
-
 #pragma mark - Internal Data Model
 #import "TICDSSyncChange.h"
 #import "TICDSSyncChangeSet.h"
