@@ -17,6 +17,8 @@
  @warning Your entity description *must* include a string attribute called `ticdsSyncID`, which the framework will use to identify each managed object instance uniquely.
  */
 
+#import <CoreData/CoreData.h>
+
 @interface TICDSSynchronizedManagedObject : NSManagedObject
 
 // If there are keys that you wish to exclude from synchronization they can be detailed in this set.
