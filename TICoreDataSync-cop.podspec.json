@@ -1,0 +1,62 @@
+{
+  "name": "TICoreDataSync-cop",
+  "version": "1.0.4",
+  "summary": "Automatic synchronization for Core Data Apps, between any combination of Mac OS X and iOS.",
+  "homepage": "http://nothirst.github.com/TICoreDataSync",
+  "license": {
+    "type": "MIT",
+    "text": ""
+  },
+  "authors": {
+    "Tim Isted": "git@timisted.com",
+    "Michael Fey": "michael@fruitstandsoftware.com",
+    "Kevin Hoctor": "kevin@nothirst.com",
+    "Christian Beer": "christian.beer@chbeer.de",
+    "Tony Arnold": "tony@thecocoabots.com",
+    "Danny Greg": "danny@dannygreg.com"
+  },
+  "platforms": {
+    "ios": "5.1",
+    "osx": "10.7"
+  },
+  "source": {
+    "git": "https://github.com/Coppertino/TICoreDataSync.git",
+    "tag": "1.0.4",
+    "submodules": false
+  },
+  "source_files": [
+    "TICoreDataSync/0[1235]*/**/*.{h,m}",
+    "TICoreDataSync/TICoreDataSync.h",
+    "TICoreDataSync/04*/*.{h,m}",
+    "TICoreDataSync/04*/FZACryptor/*.{h,m}",
+    "TICoreDataSync/04*/SSZipArchive/*.{h,m}",
+    "TICoreDataSync/04*/SSZipArchive/Objective-Zip/*.{h,m}",
+    "TICoreDataSync/04*/SSZipArchive/minizip/*.{h,c}",
+    "TICoreDataSync/06*/{NS,TI}*.{h,m}"
+  ],
+  "exclude_files": ["TICoreDataSync/02*/DropboxSDK*/**/*.{h,m}"],
+  "ios": {
+    "source_files": "TICoreDataSync/06*/UI*.{h,m}"
+  },
+  "resources": [
+    "TICoreDataSync/05*/*.{plist,txt}",
+    "TICoreDataSync/03*/*.{xcdatamodel,xcdatamodeld}"
+  ],
+  "frameworks": [
+    "CoreData",
+    "Security",
+    "SystemConfiguration"
+  ],
+  "libraries": "z",
+  "requires_arc": true,
+  "preserve_paths": [
+    "Submodules",
+    "TICoreDataSync/03 Internal Data Model/TICDSSyncChange.xcdatamodel",
+    "TICoreDataSync/03 Internal Data Model/TICDSSyncChangeSet.xcdatamodeld"
+  ],
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/TICoreDataSync/**\"",
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "prefix_header_contents": "    #ifdef __OBJC__\n      #import <CoreData/CoreData.h>\n    #endif\n"
+}
