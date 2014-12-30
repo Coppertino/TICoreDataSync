@@ -63,8 +63,8 @@
 @class TICoreDataFactory;
 @class TIKQDirectoryWatcher;
 
-#pragma mark - Whole Store Compression
-@class SSZipArchive;
+//#pragma mark - Whole Store Compression
+//@class SSZipArchive;
 
 #pragma mark - DELEGATE PROTOCOLS
 #pragma mark Sync Transaction
