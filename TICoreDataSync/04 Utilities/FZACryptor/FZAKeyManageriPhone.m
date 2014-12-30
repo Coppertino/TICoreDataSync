@@ -131,7 +131,7 @@
         if (searchResult == errSecItemNotFound) {
             TICDSLog(TICDSLogVerbosityEveryStep, @"FZACryptor iOS Key Manager didn't find a stored key");
         } else {
-            TICDSLog(TICDSLogVerbosityErrorsOnly, @"FZACryptor iOS Key Manager search error: %ld", (int)searchResult);
+            TICDSLog(TICDSLogVerbosityErrorsOnly, @"FZACryptor iOS Key Manager search error");
         }
 
         return nil;
