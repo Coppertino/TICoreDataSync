@@ -46,21 +46,6 @@
 @class TICDSFileManagerBasedDocumentClientDeletionOperation;
 @class TICDSFileManagerBasedRemoveAllRemoteSyncDataOperation;
 
-#pragma mark DropboxSDK-Based
-@class TICDSDropboxSDKBasedApplicationSyncManager;
-@class TICDSDropboxSDKBasedDocumentSyncManager;
-@class TICDSDropboxSDKBasedApplicationRegistrationOperation;
-@class TICDSDropboxSDKBasedDocumentRegistrationOperation;
-@class TICDSDropboxSDKBasedListOfPreviouslySynchronizedDocumentsOperation;
-@class TICDSDropboxSDKBasedWholeStoreUploadOperation;
-@class TICDSDropboxSDKBasedWholeStoreDownloadOperation;
-@class TICDSDropboxSDKBasedVacuumOperation;
-@class TICDSDropboxSDKBasedListOfDocumentRegisteredClientsOperation;
-@class TICDSDropboxSDKBasedListOfApplicationRegisteredClientsOperation;
-@class TICDSDropboxSDKBasedDocumentDeletionOperation;
-@class TICDSDropboxSDKBasedDocumentClientDeletionOperation;
-@class TICDSDropboxSDKBasedRemoveAllRemoteSyncDataOperation;
-
 #pragma mark - INTERNAL DATA MODEL
 @class TICDSSyncChange;
 @class TICDSSyncChangeSet;
